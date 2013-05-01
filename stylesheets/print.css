@@ -1,0 +1,112 @@
+/* Base */
+a:link, a:visited,a:active {color:lightgray;} 
+a:hover {color:gray;}
+a:visited {color:lightgray;}  
+a:hover {color:lightgray;}  
+a:active {color:lightgray;}  
+a.disabled:link, a.disabled:visited, a.disabled:active{
+    color:#181818;
+    text-decoration:none;
+}
+a.disabled:hover{
+	color:#323232;
+	cursor:default;
+}
+
+a.disabled2:link, a.disabled2:visited, a.disabled2:active{
+    color:#lightgray;
+    text-decoration:none;
+}
+a.disabled2:hover{
+	color:white;
+	cursor:default;
+}
+body{
+	background-color:303030;
+}
+
+#transparentbox{
+	position:absolute;
+	left:50%;
+	top:0; 
+	margin-left:-450px;
+	background-color:black; 
+	width:900; 
+	height:100%; 
+	opacity:0.1;
+	filter:alpha(opacity=01);
+
+}
+#loginformcontroller{
+	position:absolute;top:0px; left:50%;margin-left:100px;background-color:#585858;height:30px; width:350px;text-align:left; color: gray; font-weight:bold;z-index:8;
+}
+#morefeatures, #morefeatures2{
+	margin-left:12px;color:lightgray;font-size:16px;margin-top:6px;font-weight:bold;font-family:helvetica, arial;z-index:-9;
+}
+#loginform{
+	color:lightgray; position:relative; background-color:303030;height:84px;padding-top:15px;display:none;font-family:helvetica, arial;text-align:left;
+}
+#usernameh3{
+	font-size:12px;display:inline; margin-left:13px;
+}
+#passwordh3{
+	margin-left:76px;display:inline;font-size:12px;
+}
+#username_input{
+	 margin-left:12px;background-color:lightgray;position:relative; width:120px;margin-top:8px;height:24px;border:1px solid gray;padding: 5px;color:black;outline:none;
+}
+#password_input{
+	background-color:lightgray;margin-left:10px;position:relative; width:120px;margin-top:8px;height:24px;border: 1px solid lightgray;padding: 5px;color:black;outline:none;
+}
+#loginform_submit{
+	display:inline; margin-left:10px;background-color:585858;color:lightgray;border:1px solid lightgray;height:24px;font-family:helvetica, arial;font-weight:bold;outline:none;
+}
+#logindisplay{
+	position:absolute;top:0px; left:50%;margin-left:100px;background-color:#585858;height:30px; width:350px;text-align:left; color: gray; font-weight:bold;
+}
+#logindisplaytext{
+	margin-left:12px;color:lightgray;font-size:16px;margin-top:6px;font-weight:bold;font-family:helvetica, arial;z-index:-9;
+}
+#linksbox{
+	position:absolute;
+	top:0px; 
+	left:50%;
+	margin-left:-450px;
+	background-color:#181818;
+	height:30px; 
+	width:550px;
+	text-align:left;
+	color: gray; 
+	font-weight:bold;
+	z-index:9;
+}
+#linkstext{
+	margin-left:12px;color:lightgray;font-size:16px;margin-top:6px;font-weight:bold;font-family:helvetica, arial;z-index:-9;margin-left:15px;
+}
+.smalllinks{
+	text-decoration:none;
+}
+.smalllinks:hover{
+	color:white;
+}
+
+/* Home */
+
+#homebox{
+	position:absolute; left:50%; top:50%; margin-left:-250px; margin-top:-320px;
+}
+#hometext{
+	font-weight:bold;font-family:georgia;font-size:100px;color:#181818 ;
+}
+#homeform{
+	margin-top:-50px; margin-left:-100px; display:block
+}
+#bandname{
+	margin-top:3px; border-left: 10px dashed lightgray; border-top: 10px dashed lightgray; border-bottom: 10px dashed lightgray;outline: none;text-align:center;font-size:40px;color:lightgray;width:600px;height:100px;z-index:-1;font-family:Helvetica, Arial;display:inline-block;
+}
+#go{
+	font-family:helvetica, arial;display:inline;color:lightgray;font-weight:bold;font-size:40px;height:100px;width:100px;background-color:181818 ;border:2px solid 181818 ;outline: none; display:inline-block;position:relative;top:0px;left:-4px;
+}
+#graystylebox{
+	position:absolute;background-color:gray ;top:0;left:0; width:100%; height:42%;z-index:-2;
+}

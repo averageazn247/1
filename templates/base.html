@@ -1,0 +1,25 @@
+<html> 
+	<head>
+		<title>
+			{% block maintitle %} The Life of Bryan/College Station {% endblock %}
+		</title>
+		<link rel="stylesheet" type="text/css" href="/stylesheets/print.css">
+		{% block head %}
+		{% endblock %}	
+	</head>
+		<body>
+		<div id="transparentbox"></div>
+		 
+		<div id="linksbox">
+			<h2 id="linkstext" >
+			<a href="/" class="disabled2"> Home </a>|
+			<a href="/facebook/" class="disabled2"> Facebook </a>|
+			<a href="/register/" class="disabled2"> Register </a>|
+			<a href="/account/" class="disabled2"> Account </a>|
+			<a href="/directPage/" class="enabled"> Direction </a>| 
+			</h2>
+		</div>
+		{% block pagecontent %}
+		{% endblock %}         
+	</body>
+	</html> 
